@@ -23,7 +23,7 @@ Check this: http://testsafebrowsing.appspot.com/s/malware.html and this one: htt
 
 Links found and their safety status:  
 
-⚠️  http://testsafebrowsing.appspot.com/s/malware.html → UNSAFE (Malware or Phishing detected)␣␣
+⚠️  http://testsafebrowsing.appspot.com/s/malware.html → UNSAFE (Malware or Phishing detected)  
 ✅ https://www.google.com → Safe  
 
 ---
