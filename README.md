@@ -18,30 +18,46 @@ This beginner-friendly Python tool takes **any text input** (like emails, social
 
 ## 📷 Demo
 
-Paste your text (it can have multiple links):
-Check this: http://testsafebrowsing.appspot.com/s/malware.html and this one: https://www.google.com
+<pre> <code>```text Paste your text (it can have multiple links): Check this: http://testsafebrowsing.appspot.com/s/malware.html and this one: https://www.google.com Links found and their safety status: ⚠️ http://testsafebrowsing.appspot.com/s/malware.html → UNSAFE (Malware or Phishing detected) ✅ https://www.google.com → Safe ```</code> </pre>
+---
 
-Links found and their safety status:
+## 🛠️Technologies Used
 
-⚠️  http://testsafebrowsing.appspot.com/s/malware.html → UNSAFE (Malware or Phishing detected)
-✅ https://www.google.com → Safe
+- Python 3
+- re module for link extraction
+- requests module for API communication
+- Google Safe Browsing API
 
 ---
 
-## 🧑‍💻 Setup Instructions
+## 📚 What I Learned
 
-1. **Clone this repo**
-   ```bash
-   git clone https://github.com/yourusername/link-safety-checker.git
-   cd link-safety-checker
+- How to work with external APIs
+- How to structure a request body in JSON
+- How to extract URLs using regex
+- How to handle errors with try/except
+- How to parse JSON responses in Python
 
-2. **Install dependencies**
-    pip install requests
+---
 
-3. **Get a free Google Safe Browsing API key**
-    Go to: Google API Console
-    Create a project → Enable "Safe Browsing API" → Create API Key
+## 🌱 Why I Built This
 
-4. **Add your API key to the code**
-     Replace this line : 
+As an 18-year-old self-learner, this is my first real-world project using an external API. I wanted to build something useful while learning about APIs, JSON, and automation with Python — and share it with others starting their journey.
 
+
+---
+
+## ✨ Future Ideas
+
+- Save results to .txt or .csv
+- GUI version using Tkinter
+- Deploy as a browser extension
+
+---
+
+## 📫 Feedback & Support
+
+Want to collaborate, give feedback, or just say hi?
+- 📧 Email: neuralv.ai@gmail.com
+- 📬 LinkedIn: https://www.linkedin.com/in/neural-vision-246281359/
+- 🐦 Twitter(X): https://x.com/NeuralV_AI
