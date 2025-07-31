@@ -9,7 +9,7 @@ pattern = r'(https?://[^\s]+|www\.[^\s]+)'
 links = re.findall(pattern, text)
 
 
-API_KEY = 'YOUR_API_KEY_HERE'
+API_KEY = 'YOUR_API_KEY_HERE' #You need to get a Google Safe Browsing API key 
 url = f"https://safebrowsing.googleapis.com/v4/threatMatches:find?key={API_KEY}"
 
 if links:
