@@ -18,7 +18,14 @@ This beginner-friendly Python tool takes **any text input** (like emails, social
 
 ## 📷 Demo
 
-<pre> <code>```text Paste your text (it can have multiple links): Check this: http://testsafebrowsing.appspot.com/s/malware.html and this one: https://www.google.com Links found and their safety status: ⚠️ http://testsafebrowsing.appspot.com/s/malware.html → UNSAFE (Malware or Phishing detected) ✅ https://www.google.com → Safe ```</code> </pre>
+Paste your text (it can have multiple links):  
+Check this: http://testsafebrowsing.appspot.com/s/malware.html and this one: https://www.google.com  
+
+Links found and their safety status:  
+
+⚠️  http://testsafebrowsing.appspot.com/s/malware.html → UNSAFE (Malware or Phishing detected)␣␣
+✅ https://www.google.com → Safe  
+
 ---
 
 ## 🛠️Technologies Used
